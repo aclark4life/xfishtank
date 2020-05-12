@@ -32,7 +32,8 @@ xfishy.h: makeh
 xfish.o: xfishy.h
 
 xfish:
-	gcc -c xfish.c -I/opt/X11/include -o xfish
+	gcc -c $(SRCS) -I/opt/X11/include
+	gcc -o xfish $(OBJS)
 
 install:: install.man
 
@@ -42,4 +43,4 @@ hello:
 x: xfish
 
 clean: 
-	-rm hello *.o
+	-rm xfish hello *.o
