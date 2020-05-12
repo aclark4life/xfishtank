@@ -31,10 +31,10 @@ xfishy.h: makeh
 
 xfish.o: xfishy.h
 
-xfish.c:
+xfish:
 	cc -c -o xfish.o xfish.c -I/opt/X11/include
 
 
 install:: install.man
 
-x: xfish.c
+x: xfish
