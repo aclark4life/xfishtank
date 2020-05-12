@@ -37,4 +37,4 @@ xfish.c:
 
 install:: install.man
 
-x: xfish
+x: xfish.c
