@@ -31,7 +31,7 @@ xfishy.h: makeh
 
 xfish.o: xfishy.h
 
-xfish:
+xfish.c:
 	cc -c -o xfish.o xfish.c -I/opt/X11/include
 
 
