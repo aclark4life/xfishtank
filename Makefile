@@ -36,4 +36,10 @@ xfish:
 
 install:: install.man
 
+hello:
+	gcc hello.c -o hello
+
 x: xfish
+
+clean: 
+	rm *.o
