@@ -42,4 +42,4 @@ hello:
 x: xfish
 
 clean: 
-	rm *.o
+	rm hello rm *.o
