@@ -36,3 +36,5 @@ xfish:
 
 
 install:: install.man
+
+x: xfish
