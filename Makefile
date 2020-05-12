@@ -17,7 +17,7 @@ include base.mk
  EXTRA_INCLUDES = -I./fishmaps -I/opt/X11/include
 LOCAL_LIBRARIES = -L/opt/X11/lib
         DEPLIBS = $(DEPXLIB)
-  SYS_LIBRARIES = -lImlib2 -lm
+  SYS_LIBRARIES = -lImlib2 -lm -lX11
    MANSRCSUFFIX = 1x
 
            SRCS = xfish.c medcut.c
