@@ -34,7 +34,6 @@ xfish.o: xfishy.h
 xfish:
 	cc -c -o xfish.o xfish.c -I/opt/X11/include
 
-
 install:: install.man
 
 x: xfish
