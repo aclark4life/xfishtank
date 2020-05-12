@@ -33,7 +33,7 @@ xfish.o: xfishy.h
 
 xfish:
 	gcc -c $(SRCS) -I/opt/X11/include
-	gcc -o xfish $(OBJS)
+	gcc -o xfish $(OBJS) -lImlib2 -lm -lX11
 
 install:: install.man
 
