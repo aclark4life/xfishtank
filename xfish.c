@@ -1713,8 +1713,8 @@ char **argv;
   XEvent ev;
 
   parse(argc, argv);
-  if ((Dpy = XOpenDisplay(sname)) == 0)
-    msgdie("XOpenDisplay failed");
+  // if ((Dpy = XOpenDisplay(sname)) == 0)
+  //   msgdie("XOpenDisplay failed");
   screen = DefaultScreen(Dpy);
 
   white = WhitePixel(Dpy, screen);
